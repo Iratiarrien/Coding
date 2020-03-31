@@ -1,0 +1,17 @@
+.aquamarine {
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.red {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+body {
+    background-image: url("https://ep01.epimg.net/verne/imagenes/2019/05/17/articulo/1558087739_432602_1558090295_noticia_normal.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
