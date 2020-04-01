@@ -1,32 +1,33 @@
+html {
+    font-size: 10px;
+}
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 32px;
     text-align: center;
     padding: 0px;
     margin: 0px;
-    border: 0px;
-    margin-left: 5vw; /* ¿esto deberia ponerlo aquí? */
-    margin-right: 5vw; /* ¿esto deberia ponerlo aquí? */
 }
 
 header { 
     background-color: rgb(26, 25, 13);
     color: white;
-    height: 164px;
+    height: 90px;
+    padding: 5vh 0vw;
 }
 
 h1 { /* no se como ponerlo en el centro del deader */
     text-emphasis: bold;
-    font-size: 26px;
-    margin: 0 10vw 0 10vw;
+    font-size: 2.6rem;
 }
 a {
     text-decoration: none;
     color: inherit;
     margin: 0 8vw 0 8vw;
+    justify-content: space-evenly;
 }
-
+/* --------------------- HEADER -------------- */
 
 #banana {
     margin: 25px;
@@ -35,44 +36,68 @@ a {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: bold;
+    padding: 0px 20px;
 }
 .explicación {
     font-weight: bold;
+    padding: 0px 20px;
 }
 
 #benefits img {
-    margin-top: 40px;
-    width: 120px;
-    height: 120px;
+    width: 30vw;
+    height: 15vh;
 }
 
 #sun img {
-    width: 180px;
-    height: 180px;
+    width: 30vw;
+    height: 15vh;
 }
 #icecream img {
-    width: 180px;
-    height: 180px;
+    width: 30vw;
+    height: 15vh;
 }
 h3 {
     text-emphasis: bold;
-    font-size: 18px;
+    font-size: 1.8rem;
+    text-align: left;
+    margin: 1vh 5vw;
+}
+.raya1 {
+    width: 36vw;
+    height: 0.8vh;
+    background-color: black;
+    margin: 2vh 5vw;
+}
+.raya2 {
+    width: 40vw;
+    height: 0.8vh;
+    background-color: black;
+    margin: 2vh 5vw;
+}
+.raya3 {
+    width: 70vw;
+    height: 0.8vh;
+    background-color: black;
+    margin: 2vh 5vw;
+}
+.left {
+    margin: 3vh 5vw;
     text-align: left;
 }
 #hellobanana {
-    margin-top: 20px;
+    margin-top: 4vh;
     width: 280px;
     height: 280px;
 }
 h4 {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: bold;
     color: black;
 }
 h5 {
-    font-size: 26px;
+    font-size: 2.6rem;
     font-weight: 500;
     color: rgb(179, 179, 0);
 
@@ -80,18 +105,20 @@ h5 {
 article {
     background-color: rgb(255, 255, 111);
     border-style: solid;
-    border-width: 1px; 
-    border-color:rgb(176, 196, 2); /* no me funciona */
+    border-width: 3px; 
+    border-color: rgb(175, 175, 0); 
     border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+    padding: 5vh 5vw;
+    box-shadow: rgb(255, 255, 167);
 }
 button {
-    margin-bottom: 20px; /* esto lo tengo que poner? */
+    margin-bottom: 5%; /* esto lo tengo que poner? */
     width: 168px;
     height: 60px;
     border-radius: 20px;
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
-    background-color: rgb(255, 255, 111);
-    hover: rgb(176, 196, 2);
+    background-color: rgb(255, 255, 111); 
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -105,14 +132,29 @@ input {
     height: 60px;
     border-radius: 20px;
     box-shadow: inset 0 px 5px 0 rgba(0, 0, 0, 0.15);
-    background-color: #ffffff;
-    font-size: 17; /* no me funciona */
+    background-color: #ffffff; 
+    font-size: 1.7rem;
+    color: rgb(204, 200, 200);
     font-weight: bold;
+    padding-left: 5%;
 }
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(179, 179, 0);
+    margin: 0 5vw;
+}
+.subtitle {
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+/* ------------------------------- FOOTER --------------------- */
+
 footer {
+    padding: 5%;
     background-color: rgb(26, 25, 13);
     color: white;
     height: 164px;
 }
 
-    background-height: 1085px;
+  
